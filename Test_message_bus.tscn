@@ -10,10 +10,10 @@ script = ExtResource( 1 )
 "Labels",
 ]]
 visible = false
-margin_left = 97.0
-margin_top = 60.0
-margin_right = 172.0
-margin_bottom = 75.0
+margin_left = 225.0
+margin_top = 187.0
+margin_right = 300.0
+margin_bottom = 202.0
 text = "First label"
 script = ExtResource( 2 )
 
@@ -21,10 +21,10 @@ script = ExtResource( 2 )
 "Labels",
 ]]
 visible = false
-margin_left = 97.0
-margin_top = 89.0
-margin_right = 172.0
-margin_bottom = 104.0
+margin_left = 225.0
+margin_top = 216.0
+margin_right = 306.0
+margin_bottom = 231.0
 text = "Second label"
 script = ExtResource( 2 )
 
@@ -32,10 +32,10 @@ script = ExtResource( 2 )
 "Labels",
 ]]
 visible = false
-margin_left = 96.0
-margin_top = 121.0
-margin_right = 177.0
-margin_bottom = 136.0
+margin_left = 224.0
+margin_top = 248.0
+margin_right = 305.0
+margin_bottom = 263.0
 text = "Third label"
 script = ExtResource( 2 )
 
@@ -43,10 +43,10 @@ script = ExtResource( 2 )
 "Labels",
 ]]
 visible = false
-margin_left = 95.0
-margin_top = 151.0
-margin_right = 176.0
-margin_bottom = 166.0
+margin_left = 223.0
+margin_top = 278.0
+margin_right = 304.0
+margin_bottom = 293.0
 text = "Fourth label"
 script = ExtResource( 2 )
 
@@ -62,13 +62,14 @@ margin_left = 165.0
 margin_top = 84.0
 margin_right = 195.0
 margin_bottom = 115.0
+text = "3"
 
 [node name="5" type="Label" parent="."]
 visible = false
-margin_left = 95.0
-margin_top = 186.0
-margin_right = 176.0
-margin_bottom = 201.0
+margin_left = 223.0
+margin_top = 313.0
+margin_right = 411.0
+margin_bottom = 328.0
 text = "Fifth label (outside the group)"
 script = ExtResource( 2 )
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
